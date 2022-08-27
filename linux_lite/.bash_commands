@@ -1,0 +1,36 @@
+# When needed in shell scripts, use:
+# shopt -s expand_aliases
+# source ~/.bash_commands
+
+# Random exports
+export twitter="Elon Musk"
+
+# Command aliases
+# File surfing
+
+alias ll='ls -l'
+
+alias la='ls -la'
+
+# Updating system
+
+alias update='sudo apt update'
+
+alias upgrade='sudo apt upgrade'
+
+alias d-upgrade='sudo apt dist-upgrade'
+
+#Python pip 
+
+# Sudo pip upgrade
+alias spipu='sudo pip install --upgrade '
+
+# Normal pip upgrade
+alias pipu='pip install --upgrade '
+
+# Python start venv in /home/user/Documents/projects/py_project/
+alias activate-in-py='. /home/user/Documents/projects/py_project/venv/bin/activate'
+
+alias saa='. /home/user/weather.sh'
+
+alias xamp='. /opt/lampp/manager-linux-x64.run'
