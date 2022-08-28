@@ -28,7 +28,7 @@ beast=$(( $RANDOM % 10 ))
 
 
 if [[ $beast == $tarnished || $tarnished == "coffee" ]]; then
-	if [[ $USER = "ullmaar" ]]; then
+	if [[ $USER = "user" ]]; then
 		echo "Beast VANQUISHED!"
 		echo " "
 	fi
